@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "ITC",
+    "slug": "itc-app",
+    "scheme": "itc",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/itc-logo.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#4a5f61",
+    "ios": { "supportsTablet": false, "bundleIdentifier": "br.com.itc.app" },
+    "android": { "package": "br.com.itc.app" },
+    "web": { "bundler": "metro", "output": "single", "favicon": "./assets/itc-logo.png" },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      "expo-font",
+      ["expo-splash-screen", { "image": "./assets/itc-logo.png", "imageWidth": 120, "backgroundColor": "#4a5f61" }],
+      ["expo-image-picker", { "photosPermission": "O ITC usa suas fotos para a imagem do seu perfil." }]
+    ],
+    "experiments": { "typedRoutes": true }
+  }
+}

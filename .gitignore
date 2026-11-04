@@ -1,0 +1,29 @@
+# dependências
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# nativo (gerado por prebuild)
+/ios
+/android
+
+# variáveis de ambiente — NUNCA versionar
+.env
+.env.*
+!.env.example
+
+# Supabase local
+supabase/.branches
+supabase/.temp
+
+# Vercel
+.vercel
+
+# sistema
+.DS_Store
+Thumbs.db
+*.log
